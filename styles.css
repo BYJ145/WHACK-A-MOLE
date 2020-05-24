@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor1{
+    display: inline-block;
+    background-color: rgba(120, 219, 236, 1);
+}
+.contenedor2{
+    padding: 15px;
+    float: left;
+    
+}
+.square{
+    width: 180px;
+    height: 180px;  
+    border: 2px dotted black;
+}
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 552px;
+    height: 552px;
+    background-color: rgba(161, 236, 120, 1);
+}
+.mole{
+    background-image: url('imagenes/mole1.jpg');
+    background-size: 100% 100%;
+}
